@@ -36,7 +36,8 @@ body, h1, h2, h3, h4, p, a {
 }
 
 .blue_outline {
-    -webkit-text-stroke: 2px rgb(9, 118, 243);
+    font-weight: 900;
+    -webkit-text-stroke: 1px rgb(9, 118, 243);
 }
 
 .header {
