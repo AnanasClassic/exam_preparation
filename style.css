@@ -4,7 +4,7 @@ body, h1, h2, h3, h4, p, a {
     border: 0;
     font-size: 100%;
     font-family: cambria;
-    font-weight: normal;
+    font-weight: 600;
     vertical-align: baseline;
     outline: none;
 }
@@ -35,10 +35,6 @@ body, h1, h2, h3, h4, p, a {
 .border_github {
     border: rgb(110, 84, 148) 2px solid;
     background-color: rgb(165, 126, 222);
-}
-
-.blue_outline {
-    -webkit-text-stroke: 0.1vw; rgb(9, 118, 243);
 }
 
 .header {
