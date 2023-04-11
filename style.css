@@ -126,11 +126,12 @@ body, h1, h2, h3, h4, p, a {
 }
 
 .contact_button {
-    width: 3vw;
-    height: 3vw;
+    width: 4vw;
+    height: 4vw;
     overflow: hidden;
     border-radius: 50%;
-    display: block;
+    display: inline-block;
+    margin: 0.2vw;
 }
 
 .footer {
