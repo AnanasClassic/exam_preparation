@@ -84,9 +84,9 @@ body, h1, h2, h3, h4, p, a {
     widtgh: 100vw;
     height: 40vw;
 }
-.section60 {
+.section50 {
     widtgh: 100vw;
-    height: 60vw;
+    height: 50vw;
 }
 
 .section_text {
@@ -134,12 +134,8 @@ body, h1, h2, h3, h4, p, a {
 
 .footer {
     background-color: #000a;
-    width: 100vw;
-    height: 40vw;
-    display: flex;
-    text-align: center;
-    font-size: 3vw;
-    font-family: fantasy;
-    font-weight: 600;
+    border-radius: 1.5vw;
+    border-color: black;
     color: white;
+    font-size: 3vw;
 }
