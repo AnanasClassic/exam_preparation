@@ -3,7 +3,8 @@ body, h1, h2, h3, h4, p, a {
     padding: 0;
     border: 0;
     font-size: 100%;
-    font-weight: 300;
+    font-family: cambria;
+    font-weight: normal;
     vertical-align: baseline;
     outline: none;
 }
@@ -51,7 +52,7 @@ body, h1, h2, h3, h4, p, a {
     text-align: left;
     margin: auto;
     margin-left: 0;
-    font-family: fantasy;
+    font-family: cambria;
     display: block;
 }
 
@@ -93,7 +94,7 @@ body, h1, h2, h3, h4, p, a {
     margin: auto;
     text-align: center;
     font-size: 4vw;
-    font-family: fantasy;
+    font-family: cambria;
     color: white;
 }
 .section_spam {
@@ -102,8 +103,7 @@ body, h1, h2, h3, h4, p, a {
     padding-top: 0;
     text-align: left;
     font-size: 2.7vw;
-    font-family: fantasy;
-    font-weight: 900;
+    font-family: cambria;
     color: white;
     display: block;
 }
@@ -119,7 +119,6 @@ body, h1, h2, h3, h4, p, a {
 
 .about_me_text {
     color: rgb(55, 42, 74);
-    font-family: fantasy;
 }
 
 .contact_button {
