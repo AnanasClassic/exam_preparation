@@ -3,6 +3,7 @@ body, h1, h2, h3, h4, p, a {
     padding: 0;
     border: 0;
     font-size: 100%;
+    font-weight: 300;
     vertical-align: baseline;
     outline: none;
 }
