@@ -28,7 +28,7 @@ body, h1, h2, h3, h4, p, a {
 }
 .border_blue {
     border: rgb(9, 118, 243) 2px solid;
-    background-color: rgba(9, 118, 243, 0.3);
+    background-color: rgba(9, 118, 243, 0.5);
 }
 .border_github {
     border: rgb(110, 84, 148) 2px solid;
