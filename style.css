@@ -130,7 +130,7 @@ body, h1, h2, h3, h4, p, a {
     height: 4vw;
     overflow: hidden;
     border-radius: 50%;
-    display: inline-block;
+    display: inline;
     margin: 0.2vw;
 }
 
