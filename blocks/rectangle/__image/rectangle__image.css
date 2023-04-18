@@ -1,0 +1,8 @@
+.rectangle__image {
+    overflow: hidden;
+    margin: 1vw 0;
+    margin-right: 1vw;
+    min-width: 23vw;
+    border-top-right-radius: 6vw;
+    display: block;
+}
