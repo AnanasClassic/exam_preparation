@@ -1,0 +1,23 @@
+.rectangle {
+    width: 94vw;
+    height: auto;
+    margin: 6vh auto;
+    border-bottom-left-radius: 9vw;
+    border-top-right-radius: 9vw;
+    border-bottom-right-radius: 1.5vw;
+    border-top-left-radius: 1.5vw;
+    padding: 3vw;
+    display: flex;
+}
+
+@media (min-width: 1300px) {
+    .rectangle {
+        width: 70vw;
+    }
+    .rectangle__text_type_spam {
+        font-size: 1vw;
+    }
+    .rectangle__text_type_main {
+        font-size: 1vw;
+    }
+}
