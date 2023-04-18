@@ -5,7 +5,7 @@
 @import "../blocks/contact-button/contact-button.css";
 @import "../blocks/footer/footer.css";
 @import "../blocks/header/header.css";
-@import "../blocks/header/image/headerimage.css";
+@import "../blocks/header/__image/header__image.css";
 @import "../blocks/header/__title/header__title.css";
 @import "../blocks/rectangle/rectangle.css";
 @import "../blocks/rectangle/__image/rectangle__image.css";
