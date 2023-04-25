@@ -1,0 +1,4 @@
+.rectangle__border_blue {
+    border: rgb(9, 118, 243) 2px solid;
+    background-color: rgba(9, 118, 243, 0.7);
+}

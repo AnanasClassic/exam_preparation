@@ -1,0 +1,13 @@
+.header__image {
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-right: 1vw;
+    width: 23vw;
+    height: 23vw;
+    background-image: url("../../images/title_photo.png");
+    background-size: cover;
+    background-position: center;
+    border: rgb(9, 118, 243) 2px solid;
+    border-top-right-radius: 6vw;
+    display: block;
+}
