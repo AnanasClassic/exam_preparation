@@ -52,6 +52,7 @@ function showNextImage() {
 for (let i = 0; i < galleryItems.length; i++) {
     galleryImages[i].addEventListener('click', function() {
         showPopup(i);
+        console.log(i);
     });
 }
 
