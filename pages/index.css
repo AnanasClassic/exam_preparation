@@ -18,3 +18,9 @@
 @import "../blocks/rectangle/rectangle_height_30.css";
 @import "../blocks/rectangle/rectangle_height_40.css";
 @import "../blocks/rectangle/rectangle_height_50.css";
+@import "../blocks/popup/popup.css";
+@import "../blocks/popup/popup__arrow.css";
+@import "../blocks/popup/popup__arrow_left.css";
+@import "../blocks/popup/popup__arrow_right.css";
+@import "../blocks/popup/popup__exit-button.css";
+@import "../blocks/popup/popup__image.css";
