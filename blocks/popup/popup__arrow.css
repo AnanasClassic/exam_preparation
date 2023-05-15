@@ -1,0 +1,6 @@
+.popup__arrow {
+    position: absolute;
+    height: 16px;
+    width: 6px;
+    cursor: pointer;
+}

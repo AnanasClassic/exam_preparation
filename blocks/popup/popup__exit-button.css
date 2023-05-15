@@ -1,0 +1,10 @@
+.popup__exit-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    background-image: url("../../images/exit_button.png");
+    background-size: cover;
+    width: 6vw;
+    height: 6vw;
+}
