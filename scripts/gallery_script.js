@@ -54,6 +54,7 @@ for (let i = 0; i < galleryItems.length; i++) {
         showPopup(i);
         console.log(i);
     });
+    console.log('ok');
 }
 
 closeButton.addEventListener('click', () => {
