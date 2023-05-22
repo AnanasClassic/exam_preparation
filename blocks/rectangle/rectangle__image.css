@@ -5,4 +5,10 @@
     min-width: 23vw;
     border-top-right-radius: 6vw;
     display: block;
+    cursor: pointer;
+}
+
+.rectangle__image img {
+    object-fit: cover;
+    margin: auto;
 }

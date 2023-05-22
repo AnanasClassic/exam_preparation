@@ -1,0 +1,9 @@
+.rain__particle {
+    position: absolute;
+    top: -50px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../../images/gold_bar.png);
+    background-size: contain;
+    animation: rain__animation 5s linear infinite;
+}

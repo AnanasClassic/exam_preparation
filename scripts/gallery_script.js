@@ -1,19 +1,20 @@
-const popup = document.getElementById('.popup');
-const popupImage = document.getElementById('.popup__image');
-const closeButton = document.querySelector('.popup__exit-button');
-const prevButton = document.querySelector('.popup__arrow_left');
-const nextButton = document.querySelector('.popup__arrow_right');
-const galleryImages = document.querySelector('.rectangle__image');
+const popup = document.getElementById('gallery');
+const popupImage = document.getElementById('gallery__image');
+const closeButton = document.querySelector('.gallery__exit-button');
+const prevButton = document.querySelector('.gallery__arrow_left');
+const nextButton = document.querySelector('.gallery__arrow_right');
+const galleryImages = document.querySelectorAll('.rectangle__image, .header__image');
 
 let currentIndex = 0;
-let imageSrc;
 
 function showPopup(index) {
-    imageSrc = galleryImages[index].querySelector('img').src;
-    popupImage.src = imageSrc;
-    popup.style.display = 'flex';
+    setTimeout(function () {
+        popup.classList.add('gallery_open');
+    }, 10);
+    popupImage.src = galleryImages[index].src;
+    console.log('some animation');
     currentIndex = index;
-
+    console.log("showPopup");
     updateNavigationButtons();
 }
 
@@ -24,42 +25,42 @@ function updateNavigationButtons() {
         prevButton.style.display = 'flex';
     }
 
-    if (currentIndex === galleryItems.length - 1) {
-        prevButton.style.display = 'none';
+    if (currentIndex === galleryImages.length - 1) {
+        nextButton.style.display = 'none';
     } else {
-        prevButton.style.display = 'flex';
+        nextButton.style.display = 'flex';
     }
 }
 
 function showPreviousImage() {
     if (currentIndex > 0) {
         currentIndex--;
-        imageSrc = galleryImages[currentIndex].querySelector('img').src;
-        popupImage.src = imageSrc;
+        popupImage.src = galleryImages[currentIndex].src;
         updateNavigationButtons();
     }
 }
 
 function showNextImage() {
-    if (currentIndex > 0) {
+    if (currentIndex < galleryImages.length - 1) {
         currentIndex++;
-        imageSrc = galleryImages[currentIndex].querySelector('img').src;
-        popupImage.src = imageSrc;
+        popupImage.src = galleryImages[currentIndex].src;
         updateNavigationButtons();
     }
 }
 
-for (let i = 0; i < galleryItems.length; i++) {
-    galleryImages[i].addEventListener('click', function() {
+for (let i = 0; i < galleryImages.length; i++) {
+    galleryImages[i].addEventListener('click', function () {
         showPopup(i);
-        console.log(i);
     });
-    console.log('ok');
 }
+console.log("" + galleryImages.length);
 
-closeButton.addEventListener('click', () => {
-    popup.style.display = 'none';
+closeButton.addEventListener('click', function () {
+    popup.classList.remove('gallery_open');
+    console.log('close gallery');
 });
 
 prevButton.addEventListener('click', showPreviousImage);
 nextButton.addEventListener('click', showNextImage);
+
+console.log("ok");

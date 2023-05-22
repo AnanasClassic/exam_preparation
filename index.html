@@ -22,7 +22,7 @@
         <h1>Всем привет!</h1>
         <h1>Я Влад Кузнецов</h1>
     </div>
-    <div class="header__image"></div>
+    <img class="rectangle__image rectangle__border_blue" src="images/title_photo.png" alt="not found">
 </header>
 
 
@@ -100,16 +100,30 @@
 
 <footer class="rectangle footer">
     <h4 style="margin: auto">По всем вопросам писать <a href="#explain" style="color: white">сюда</a></h4>
+    <button id="startRainButton" class="footer__button">Начать дождь</button>
 </footer>
 
-<div id="popup" class="popup">
-    <span class="close">&times;</span>
-    <img id="popup-image" src="">
-    <span class="prev">&lt;</span>
-    <span class="next">&gt;</span>
+<!--   Task 1, 2   -->
+<div id="gallery" class="gallery">
+    <img class="gallery__exit-button" src="images/exit_button.png" , alt="close">
+    <img id="gallery__image" src="">
+    <img class="gallery__arrow gallery__arrow_left" src="images/left_arrow.png" , alt="close">
+    <img class="gallery__arrow gallery__arrow_right" src="images/right_arrow.png" , alt="close">
 </div>
 
-<script src="script.js"></script>
+<!--   Task 5   -->
+<div id="rickroll-popup" class="rickroll-popup">
+    <img id="rickrollImage" class="rickroll-popup__image" src="images/rick-roll.gif"
+         alt="You have not been rickrolled :(">
+    <img id="rickrollExitButton" class="rickroll-popup__exit-button" src=images/exit_button.png alt="X">
+</div>
+
+<!--   Task 7   -->
+<div id="rain" class="rain"></div>
+
+<script src="scripts/gallery_script.js"></script>
+<script src="scripts/rickroll_script.js"></script>
+<script src="scripts/rain_script.js"></script>
 
 </body>
 </html>

@@ -1,0 +1,8 @@
+.gallery__arrow {
+    position: absolute;
+    cursor: pointer;
+    top: 30vh;
+    object-fit: contain;
+    max-height: 40px;
+    max-width: 40px;
+}

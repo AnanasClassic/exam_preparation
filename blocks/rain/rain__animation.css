@@ -1,0 +1,8 @@
+@keyframes rain__animation {
+    0% {
+        transform: translateY(-100vh) rotate(0deg);
+    }
+    100% {
+        transform: translateY(110vh) rotate(1080deg);
+    }
+}
