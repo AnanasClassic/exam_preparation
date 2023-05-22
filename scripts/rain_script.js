@@ -41,8 +41,8 @@ function createRaindrops(container) {
         currentDrops++;
         const raindrop = document.createElement('div');
         raindrop.classList.add('rain__particle');
-        raindrop.style.left = `${getRandomNumber(0, 100)}vw`;
-        raindrop.style.animationDelay = `${getRandomNumber(0, 5000)}ms`;
+        raindrop.style.left = `${getRandomNumber(5, 95)}vw`;
+        raindrop.style.animationDelay = `${getRandomNumber(0, 20000)}ms`;
         raindrop.style.width = `${dropSize}px`;
         raindrop.style.height = `${dropSize}px`;
         container.appendChild(raindrop);

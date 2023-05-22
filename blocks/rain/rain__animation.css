@@ -3,6 +3,6 @@
         transform: translateY(-10vh) rotate(0deg);
     }
     100% {
-        transform: translateY(100vh) rotate(1080deg);
+        transform: translateY(510vh) rotate(1080deg);
     }
 }
