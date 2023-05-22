@@ -1,0 +1,12 @@
+.black-and-white {
+    filter: grayscale(100%);
+}
+
+.black-and-white h1,
+.black-and-white h2,
+.black-and-white h3,
+.black-and-white h4,
+.black-and-white h5,
+.black-and-white h6 {
+    font-size: calc(100% + 10px);
+}
