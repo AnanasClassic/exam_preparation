@@ -15,7 +15,7 @@ rickrollCloseButton.addEventListener('click', () => {
 document.addEventListener('click', (event) => {
     if (!rickrollPopup.contains(event.target)) {
         rickrollPopup.classList.remove('rickroll-popup_open');
-        //  не баг, а фича
+        localStorage.setItem('rickrollPopupClosed', 'true');
     }
 });
 
