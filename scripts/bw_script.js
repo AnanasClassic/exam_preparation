@@ -1,13 +1,15 @@
 const makeBWButton = document.getElementById('makeBWButton');
-const body = document.querySelector('.background');
+const background = document.querySelector('.background');
 let bw = false;
 makeBWButton.addEventListener('click', () => {
     if (!bw) {
-        body.classList.add('black-and-white');
+        background.classList.add('black-and-white');
+        document.body.classList.add('black-and-white');
         makeBWButton.textContent = "вернуть цвета";
 
     } else {
-        body.classList.remove('black-and-white');
+        document.body.classList.remove('black-and-white');
+        background.classList.remove('black-and-white');
         makeBWButton.textContent = "убрать цвета";
     }
     bw = !bw;

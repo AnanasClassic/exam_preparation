@@ -1,0 +1,6 @@
+.registration-form__field_error input {
+    box-shadow: 0 0 8px #ff7f7f;
+}
+.registration-form__field_error label {
+    color:#f00;
+}

@@ -1,0 +1,8 @@
+.registration-form__button_accepted {
+    background-color: #0aa;
+    cursor: default;
+}
+
+.registration-form__button_accepted:hover {
+    background-color: #0aa;
+}

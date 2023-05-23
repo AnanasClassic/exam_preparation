@@ -3,7 +3,20 @@ body, h1, h2, h3, h4, p, a {
     padding: 0;
     border: 0;
     font-size: 100%;
-    font-family: cambria;
+    font-family: cambria, serif;
+    font-weight: 600;
+    vertical-align: baseline;
+    outline: none;
+}
+
+.body_like {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: cambria, serif;
     font-weight: 600;
     vertical-align: baseline;
     outline: none;

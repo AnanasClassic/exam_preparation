@@ -34,3 +34,11 @@
 @import "../blocks/rain/rain__animation.css";
 @import "../blocks/rain/rain__particle.css";
 @import "../blocks/black-and-white/black-and-white.css";
+@import "../blocks/registration-form/registration-form.css";
+@import "../blocks/registration-form/registration-form_open.css";
+@import "../blocks/registration-form/registration-form__button.css";
+@import "../blocks/registration-form/registration-form__button_accepted.css";
+@import "../blocks/registration-form/registration-form__button_waiting.css";
+@import "../blocks/registration-form/registration-form__field.css";
+@import "../blocks/registration-form/registration-form__field_accepted.css";
+@import "../blocks/registration-form/registration-form__field_error.css";
