@@ -2,14 +2,14 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 1vw;
 }
 
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
     color: #4a4a4a;
-    padding: 30px;
+    padding: 1vw;
 }
 
 header {
@@ -17,7 +17,7 @@ header {
 }
 
 #ticket-info {
-    font-size: 1.2em;
+    font-size: 1.4vw;
     text-align: center;
     margin: 20px 0;
 }
@@ -33,7 +33,7 @@ button {
     background-color: #4a87d3;
     color: #ffffff;
     padding: 10px 20px;
-    font-size: 1.1em;
+    font-size: 1.2vw;
     cursor: pointer;
     border: none;
     border-radius: 3px;
@@ -46,5 +46,5 @@ button:hover {
     position: fixed;
     top: 20px;
     right: 30px;
-    font-size: 1.2em;
+    font-size: 1.2vw;
 }
