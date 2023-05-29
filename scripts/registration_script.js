@@ -23,11 +23,12 @@ function isValidEmail(email) {
     }
     let atIndex = email.indexOf('@');
     let dotIndex = email.indexOf('.', atIndex);
-    let lastDotIndex = email.lastIndexOf('.', atIndex);
+    let lastDotIndex = email.lastIndexOf('.');
     if (dotIndex <= atIndex + 1) {
         return 'baddot';
     }
     let afterDot = email.slice(lastDotIndex + 1);
+    console.log(afterDot);
     return afterDot.length >= 2 ? 'ok' : 'shortpostfix';
 }
 
