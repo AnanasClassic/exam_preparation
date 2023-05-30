@@ -17,7 +17,10 @@ header {
 }
 
 #ticket-info {
-    font-size: 1.4vw;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    font-size: 3vh;
     text-align: center;
     margin: 20px 0;
 }
@@ -33,7 +36,7 @@ button {
     background-color: #4a87d3;
     color: #ffffff;
     padding: 10px 20px;
-    font-size: 1.2vw;
+    font-size: 2.4vh;
     cursor: pointer;
     border: none;
     border-radius: 3px;
@@ -46,5 +49,5 @@ button:hover {
     position: fixed;
     top: 20px;
     right: 30px;
-    font-size: 1.2vw;
+    font-size: 2.4vh;
 }
