@@ -37,7 +37,8 @@ header {
 button {
     background-color: #4a87d3;
     color: #ffffff;
-    padding: 40px;
+    margin: 1vw;
+    padding: 10px 40px;
     font-size: 2.4vh;
     cursor: pointer;
     border: none;
