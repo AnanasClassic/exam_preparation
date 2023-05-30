@@ -71,11 +71,11 @@ function startTest() {
     evaluation.style.display = "block";
     ticketInfo.style.display = "block";
 }
-
+let pts = -1;
 function evaluate(points) {
     resetButtons();
-    totalScore += points;
-    evaluatedTickets++;
+    pts = points;
+    // evaluatedTickets++;
 
     if(points === 0) {
         btn0.style.backgroundColor = "#d14a4a";
@@ -84,14 +84,13 @@ function evaluate(points) {
     } else {
         btn2.style.backgroundColor = "#7ac16f";
     }
-
-    score.textContent = (totalScore / evaluatedTickets).toFixed(2);
-    setTimeout(() => {
-        const [q1, q2] = getRandomQuestions();
-        question1.textContent = q1;
-        question2.textContent = q2;
-        resetButtons();
-    }, 1000);
+    skipBtn.textContent = "Следующий билет";
+    // setTimeout(() => {
+    //     const [q1, q2] = getRandomQuestions();
+    //     question1.textContent = q1;
+    //     question2.textContent = q2;
+    //     resetButtons();
+    // }, 1000);
 }
 
 function resetButtons() {
@@ -101,6 +100,14 @@ function resetButtons() {
 }
 
 function skipTicket() {
+    if (pts !== -1) {
+        totalScore += pts;
+        evaluatedTickets++;
+        pts = -1;
+        score.textContent = (totalScore / evaluatedTickets).toFixed(2);
+    }
+    skipBtn.textContent = "Пропустить";
+
     resetButtons();
     const [q1, q2] = getRandomQuestions();
     question1.textContent = q1;
