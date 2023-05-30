@@ -35,13 +35,12 @@ header {
 button {
     background-color: #4a87d3;
     color: #ffffff;
-    padding: 10px 20px;
+    padding: 10px 40px;
     font-size: 2.4vh;
     cursor: pointer;
     border: none;
     border-radius: 3px;
     outline: none;
-    margin: 1vw;
 }
 button:hover {
     background-color: #3877b1;
