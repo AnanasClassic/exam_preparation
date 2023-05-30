@@ -49,11 +49,19 @@ function getRandomQuestions() {
     let theme1Index = Math.floor(Math.random() * Math.floor(questions.length / 2));
     let theme2Index = Math.floor(Math.random() * (questions.length - Math.floor(questions.length / 2)));
     theme2Index += Math.floor(questions.length / 2);
-    const question1Index = Math.floor(Math.random() * questions[theme1Index].length);
-    const question2Index = Math.floor(Math.random() * questions[theme2Index].length);
+    const question1Index = Math.floor(Math.random() * (questions[theme1Index].length - 1));
+    const question2Index = Math.floor(Math.random() * (questions[theme2Index].length - 1));
     console.log(theme1Index, " ", question1Index);
     console.log(theme2Index, " ", question2Index);
-    return [questions[theme1Index][question1Index], questions[theme2Index][question2Index]];
+    let question1Text = questions[theme1Index][question1Index];
+    if (Math.random() < 0.6) {
+        question1Text += " " + questions[theme1Index][question1Index + 1];
+    }
+    let question2Text = questions[theme2Index][question2Index];
+    if (Math.random() < 0.6) {
+        question2Text += " " + questions[theme2Index][question2Index + 1];
+    }
+    return [question1Text, question2Text];
 }
 
 function startTest() {
